@@ -1,5 +1,16 @@
 {
   "dependencies": {
-    "express": "^4.19.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.0.0",
+    "https": "^1.0.0",
+    "nodemailer": "^6.9.13",
+    "validator": "^13.11.0"
+  },
+  "scripts": {
+    "start": "nodemon --env-file=.env backend.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
